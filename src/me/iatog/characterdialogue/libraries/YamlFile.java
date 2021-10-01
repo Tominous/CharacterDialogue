@@ -50,7 +50,7 @@ public class YamlFile extends YamlConfiguration {
 	}
 
 	public void save() {
-		// File folder = this.plugin.getDataFolder();
+		 File folder = this.plugin.getDataFolder();
 		File file = new File(this.folder, this.fileName);
 		try {
 			save(file);
@@ -60,7 +60,7 @@ public class YamlFile extends YamlConfiguration {
 	}
 
 	public void reload() {
-		// File folder = this.plugin.getDataFolder();
+		 File folder = this.plugin.getDataFolder();
 		File file = new File(this.folder, this.fileName);
 		try {
 			load(file);
