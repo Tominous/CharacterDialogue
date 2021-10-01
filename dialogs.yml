@@ -18,7 +18,7 @@ dialogs:
       - 'SEND: &7          &7&lNext objective&f: enter the city.'
       - 'SOUND: BLOCK_NOTE_PLING,1,0.1'
       hologram:
-        enabled: false
+        enabled: true
         # Optional
         y-position: 0.4
         lines:
